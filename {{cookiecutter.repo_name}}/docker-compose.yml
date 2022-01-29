@@ -8,6 +8,6 @@ services:
         - JUPYTER_ENABLE_LAB=yes
 
     volumes:
-        - ./:/home/jovyan/
+        - ./work:/home/jovyan/work
     ports:
       - "8888:8888"
