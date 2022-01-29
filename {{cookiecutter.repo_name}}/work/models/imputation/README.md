@@ -1,0 +1,1 @@
+This directory is used to store data such as csv's or connection information required to get data for the project.

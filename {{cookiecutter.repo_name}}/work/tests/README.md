@@ -1,0 +1,1 @@
+This directory is used to store test functions for custom created modules.

@@ -1,0 +1,1 @@
+This directory is used to store the current model binary created by the project. There should only be one model in this directory.
