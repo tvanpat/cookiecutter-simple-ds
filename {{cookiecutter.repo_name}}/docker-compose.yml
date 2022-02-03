@@ -3,9 +3,10 @@ services:
   ds-notebook:
     build:
       context: .
-    #image: jupyter/scipy-notebook
+      dockerfile: Dockerfile
     environment:
         - JUPYTER_ENABLE_LAB=yes
+        - JUPYTER_TOKEN=vp
 
     volumes:
         - ./work:/home/jovyan/work
