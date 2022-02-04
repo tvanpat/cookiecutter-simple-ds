@@ -8,3 +8,5 @@ COPY docker_config/overrides.json /opt/conda/share/jupyter/lab/settings/
 RUN jupyter serverextension enable --py jupyterlab --sys-prefix
 RUN jupyter labextension enable @jupyterlab/plotly-extension
 RUN jupyter lab build
+
+WORKDIR /home/jovyan/work
